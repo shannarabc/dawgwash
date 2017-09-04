@@ -1,29 +1,50 @@
 <div>
-  <header class="logo">
+  <header>
     <div class="header-contact">
+
+      <div>
+        <strong>Call: 775-356-8111</strong>
+      </div>
+
+      <div>
+        Hours: Tuesday-Saturday, 8:30 AM 4:00 PM (By Appointment)
+      </div>
+
+      <div>
+        <address>
+          <a href="http://maps.google.com/maps?q=1343+BaringBlvd,+Sparks,+NV+89434" target="_blank">1343 Baring Blvd, Sparks, NV 89434</a>
+        </address>
+      </div>
+    </div>
+
     <div>
-      Call: 775-356-8111
+      <nav>
+        <ul>
+          <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+          <li>{{#link-to 'about'}}About{{/link-to}}</li>
+          <li>{{#link-to 'services'}}Services{{/link-to}}</li>
+          <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+          <li>{{#link-to 'faqs'}}Faq's{{/link-to}}</li>
+        </ul>
+      </nav>
     </div>
-     <div>
-       Hours: Tuesday through Saturday, 8:30 AM - 4:00 PM (By Appointment)
-     </div>
-    <div>
-      Address: 1343 Baring Blvd, Sparks, NV 89434
-    </div>
-    </div>
-    <div>
-    <img src="/assets/images/DawgWashLogo.png">
-    </div>
+
+      <div class="logo">
+          <img src="/assets/images/DawgWashLogo.png">
+      </div>
+
   </header>
-  <nav>
-    <ul>
-      <li><a href="">About</a></li>
-      <li>{{#link-to 'services'}}Services{{/link-to}}</li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">Specials</a></li>
-      <li><a href="">Faq's</a></li>
-    </ul>
-  </nav>
+
 </div>
 
+
+
 {{outlet}}
+
+  <footer>
+    <p>
+      Copyright 2017 The Dawg Wash
+      <br>
+      Site designed by Jamie Swanson
+    </p>
+  </footer>
